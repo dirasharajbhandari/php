@@ -1,0 +1,351 @@
+*{
+    /* font-family: cursive; */
+    margin: 0;
+    padding: 0;
+}
+.log
+{
+    background-color: bisque;
+}
+.h1
+{
+    text-align: center;
+}
+body
+{
+    background-image: url("./car.jpg");
+    background-size: 1600px 730px;
+    background-repeat: no-repeat;
+
+}
+
+/* Style for the header */
+.main-header {
+    /* background-color:#f1efeff8;  Dark background */
+    background-color: rgba(255, 255, 255, 0.5);
+    /* backdrop-filter: blur(50px); */
+    color: white;            /* White text */
+    
+    height: 30px;
+    padding: 10px 20px;
+    text-align: center;
+    
+}
+.submit
+{
+    cursor: pointer;
+}
+.main-header nav ul li {
+    display: inline;
+    margin-top: -5px;
+    margin-right: -5px;
+
+}
+.head
+{
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 50px;
+    align-items: center;
+
+   
+}
+.anchor 
+{
+    display: flex;
+    gap: 30px;
+    margin-left: 1100px;
+;
+
+}
+.anchor a
+{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    align-content: right;
+
+}
+.head h1{
+color: black;
+font-family: "Pacifico",cursive;
+display: flex;
+/* text-align: center; */
+/* justify-content: center; */
+align-items: center;
+background-image: url(logo.png);
+}
+.vertical-line {
+    width: 0;             /* No width for a vertical line */
+      height: 300px;        /* Long line height */
+      border: none;
+      border-left: 3px solid #e0dede; /* Vertical line using left border */
+      margin-left:50px;
+      margin-top: 120px;
+      
+  }
+ .banner-box {
+    width: 700px;
+    height: 500px;
+    padding: 90px;
+    background: rgba(27, 27, 27, 0.372);
+    box-shadow: 5px 5px 15px rgba(244, 240, 240, 0.3);
+    display: flex;
+
+}
+.banner-box h2{
+    color: white;
+    text-align: center;
+     margin-top: 80px;
+    
+}
+/* .paragraph h4{
+    color: white;
+    margin-left: 80px;
+} */
+.end{
+color: white;
+margin-left: 40px;
+}
+.end h4{
+    margin-top: 10px;
+}
+.paragraph h2
+{
+    margin-top: 200px;
+    font-family: 'Poppins',sans-serif;
+    font-size: 40px;
+    
+}
+.paragraph h2 pre{
+    margin-left: 10px;
+    text-align: left;
+}
+
+.row1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 35px;
+}
+.first{
+    font-size: 30px;
+    background-color: #d9d2d24a;
+    border-radius: 7px;
+    width: 200px;
+    height: 100px;
+    font-size: 20px;
+    padding-top:30px;
+    text-align: center;
+}
+.second
+{
+    font-size: 30px;
+    background-color: #d9d2d276;
+    border-radius: 7px;
+    width: 200px;
+    height: 100px;
+    font-size: 20px;
+    padding-top:30px;
+    text-align: center;
+}
+.third
+{
+    font-size: 30px;
+    background-color: #d9d2d27e;
+    border-radius: 7px;
+    width: 200px;
+    height: 100px;
+    font-size: 20px;
+    padding-top:30px;
+    text-align: center;
+}
+.fourth
+{
+    font-size: 30px;
+    background-color: #7d0707;
+    color: aliceblue;
+    border-radius: 7px;
+    width: 200px;
+    height: 100px;
+    font-size: 20px;
+    padding-top:30px;
+    text-align: center;
+}
+.video
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    border-radius: 7px;
+}
+.first:hover
+{
+    background-color: #acc847;
+    box-shadow: #333;
+    width: 300px;
+    cursor: pointer;
+}
+.two-wheel
+{
+    color: black;
+    margin-top: 25px;
+    margin-left: 140px;
+}
+.side{
+    margin-left: 680px;
+    margin-top: -30px;
+    font-size: 20px;
+}
+.one{
+
+    align-content: center;
+    margin-left: 140px;
+    margin-top: 100px;
+    background-image: url("./veh.png");
+    backdrop-filter: blur(7);
+    background-size: cover;
+    border-radius: 7px;
+    width: 600px;
+    height: 300px;
+    padding-top:30px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.7);
+}
+.one p
+{
+   color: #ccc;
+}
+.one:hover
+{
+    background-color: #7d0707;
+    
+}
+.two{
+
+    align-content: center;
+    margin-left: 800px;
+    margin-top: -330px;
+    background-image: url("./carparking.jpg");
+    backdrop-filter: blur(7);
+    background-size: cover;
+    border-radius: 7px;
+    width: 500px;
+    height: 300px;
+    padding-top:30px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.7);
+    color: white;
+}
+.main-footer {
+    margin-top: 100px; /* Pushes the footer to the bottom */
+    background-color: #333333a0;
+    color: black;
+    height: 500px;
+    padding: 50px; 
+    text-align: center;
+
+ }
+ .foot img  
+{
+    width: 400px;
+}
+.foot
+{
+    display: flex;
+}
+.contact
+{
+    margin-left: 500px;
+
+}
+input[type="text"],input[type="number"],select{
+    width: 80%;
+    height: 20%;
+    border-radius: 8px;
+    border: none;
+    padding: 10px;
+}
+.contact h2
+{
+    font-size: 40px;
+    color: #7d0707;
+}
+button 
+{
+    height: 50px;
+    width: 80px;
+    margin-top: 100px;
+    margin-left: 850px;
+}
+.upper 
+{
+    background-color: #ffcc00;
+    height: 250px;
+    margin-top: 100px;
+}
+.upper h3
+{
+font-size: 30px;
+margin-left: 500px;
+padding-top: 20px;
+}
+.join
+{
+    height: 50px;
+    width: 80px;
+    margin-top: 30px;
+    background-color: rgb(255, 251, 251,0.7);
+    margin-left: 700px;
+}
+.join:hover{
+    background-color: red;
+}
+
+
+.form li {
+    position: relative; 
+    list-style: none; 
+    cursor: pointer;
+    font-size: 20px;
+    color: rgb(16, 16, 16);
+    margin-right: 5px;
+    margin-left: -8px;
+    transition: background-color 0.3s ease;
+}
+.form li:hover{
+     transform: scale(1.1); 
+    color: #861e09; 
+}
+.form-link:visited {
+    background-color:#ffcc00 ; 
+    color: #ccc;              
+}
+.form li ul.dropdown {
+    background-color: #e6e7e8;
+    position: absolute;
+    display: none;
+     list-style: none; 
+    padding: 0;
+    margin: 0;
+}
+
+.form li:hover ul.dropdown {
+    display: block; 
+    cursor: pointer;
+    transform: scale(1.1);
+    color: #ffcc00; 
+
+}
+
+.form li ul.dropdown li {
+    display: block;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    list-style: none; 
+    font-size: 15px;
+
+}
+
+.form li ul.dropdown li:hover {
+    background-color: #7e160f; 
+    transform: scale(1.1);
+}
