@@ -73,7 +73,7 @@ $conn->close();
   <header>
     <div class="container header-container">
       <div class="logo">
-        <h1><i class="fas fa-parking"></i> ParkEasy</h1>
+        <h1><i class="fas fa-parking"></i> SpotOn</h1>
       </div>
       <nav>
         <ul>
@@ -236,14 +236,14 @@ $conn->close();
         <div class="footer-column">
           <h3>Contact Us</h3>
           <address>
-            <p><i class="fas fa-map-marker-alt"></i> 123 Parking Avenue, City</p>
-            <p><i class="fas fa-phone"></i> (555) 123-4567</p>
-            <p><i class="fas fa-envelope"></i> info@parkeasy.com</p>
+            <p><i class="fas fa-map-marker-alt"></i>Kathmandu</p>
+            <p><i class="fas fa-phone"></i>9851336288</p>
+            <p><i class="fas fa-envelope"></i>spoyon@gmail.com</p>
           </address>
         </div>
       </div>
       <div class="footer-bottom">
-        <p>&copy; <?php echo date('Y'); ?> ParkEasy. All rights reserved.</p>
+        <p>&copy; <?php echo date('Y'); ?> SpotOn. All rights reserved.</p>
       </div>
     </div>
   </footer>
