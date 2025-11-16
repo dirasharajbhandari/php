@@ -35,9 +35,9 @@
         <nav class="nav-menu">
           <ul>
             <li><a href="home.php" class="nav-link">Home</a></li>
-            <li><a href="view.html" class="nav-link">View</a></li>
+            <li><a href="view.php" class="nav-link">View</a></li>
             <li><a href="reserve.php" class="nav-link">Reserve</a></li>
-            <li><a href="#" class="nav-link">Login</a></li>
+            <li><a href="login.php" class="nav-link">Login</a></li>
             <li><a href="#" class="nav-link">Register</a></li>
           </ul>
         </nav>
