@@ -17,7 +17,7 @@ require('dbms.php');
         <div class="nav-container">
           <div class="nav-brand">
             <span class="nav-logo">🅿️</span>
-            <span class="nav-title">ParkEasy</span>
+            <span class="nav-title">SpotOn</span>
           </div>
           <ul class="nav-menu">
             <li><a href="home.html" class="nav-link">Home</a></li>
@@ -116,7 +116,7 @@ require('dbms.php');
             <div class="pricing-header">
               <h3 class="pricing-title">Hourly</h3>
               <div class="pricing-price">
-                <span class="price-amount">$3</span>
+                <span class="price-amount">30</span>
                 <span class="price-period">/hour</span>
               </div>
             </div>
@@ -133,7 +133,7 @@ require('dbms.php');
             <div class="pricing-header">
               <h3 class="pricing-title">Daily</h3>
               <div class="pricing-price">
-                <span class="price-amount">$15</span>
+                <span class="price-amount">300</span>
                 <span class="price-period">/day</span>
               </div>
             </div>
@@ -149,7 +149,7 @@ require('dbms.php');
             <div class="pricing-header">
               <h3 class="pricing-title">Monthly</h3>
               <div class="pricing-price">
-                <span class="price-amount">$199</span>
+                <span class="price-amount">10,000</span>
                 <span class="price-period">/month</span>
               </div>
             </div>
@@ -174,15 +174,15 @@ require('dbms.php');
             <div class="contact-details">
               <div class="contact-item">
                 <span class="contact-icon">📞</span>
-                <span>(555) 123-PARK</span>
+                <span>9851336288</span>
               </div>
               <div class="contact-item">
                 <span class="contact-icon">✉️</span>
-                <span>hello@parkeasy.com</span>
+                <span>spoton@gmail.com</span>
               </div>
               <div class="contact-item">
                 <span class="contact-icon">📍</span>
-                <span>Downtown Parking Solutions</span>
+                <span>Nepal's Parking Solutions</span>
               </div>
             </div>
           </div>
@@ -210,12 +210,12 @@ require('dbms.php');
         <div class="footer-content">
           <div class="footer-brand">
             <span class="footer-logo">🅿️</span>
-            <span class="footer-title">ParkEasy</span>
+            <span class="footer-title">SpotOn</span>
           </div>
           <p class="footer-text">Making parking simple, secure, and convenient for everyone.</p>
         </div>
         <div class="footer-bottom">
-          <p>&copy; 2025 ParkEasy. All rights reserved.</p>
+          <p>&copy; 2025 SpotOn. All rights reserved.</p>
         </div>
       </div>
     </footer>
