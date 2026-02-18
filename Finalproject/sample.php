@@ -157,6 +157,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 const startTimeInput = document.querySelector('input[name="start_time"]');
 const endTimeInput = document.querySelector('input[name="end_time"]');
 const locationSelect = document.querySelector('select[name="location"]');
+const vehicleSelect = document.querySelector('select[name="vehicleType"]');
 const paymentDisplay = document.getElementById('payment');
 const summaryDisplay = document.getElementById('summary');
 
@@ -164,8 +165,9 @@ function calculatePayment() {
     const start = startTimeInput.value;
     const end = endTimeInput.value;
     const location = locationSelect.value;
+    const vehicle = vehicleSelect.value;
 
-    if (start && end) {
+    if (start && end && vehicle) {
         const startDate = new Date(`1970-01-01T${start}:00`);
         const endDate = new Date(`1970-01-01T${end}:00`);
         let diffMinutes = (endDate - startDate) / (1000 * 60);
@@ -174,12 +176,14 @@ function calculatePayment() {
             paymentDisplay.textContent = "0";
             summaryDisplay.textContent = "";
         } else {
-            let payment = Math.ceil(diffMinutes / 30) * 20;
-            paymentDisplay.textContent = payment;
+            // Determine rate based on vehicle type
+            let ratePerHour = vehicle === "four" ? 60 : 40;
+            let payment = (diffMinutes / 60) * ratePerHour;
+            paymentDisplay.textContent = Math.ceil(payment);
 
             const hours = Math.floor(diffMinutes / 60);
-            const minutes = diffMinutes % 60;
-            summaryDisplay.textContent = `Location: ${location}, Time: ${start} - ${end} (Interval: ${hours}h ${minutes}m)`;
+            const minutes = Math.floor(diffMinutes % 60);
+            summaryDisplay.textContent = `Location: ${location}, Vehicle: ${vehicle === "four" ? "Four-Wheeler" : "Two-Wheeler"}, Time: ${start} - ${end} (Interval: ${hours}h ${minutes}m)`;
         }
     }
 }
@@ -187,7 +191,9 @@ function calculatePayment() {
 startTimeInput.addEventListener('change', calculatePayment);
 endTimeInput.addEventListener('change', calculatePayment);
 locationSelect.addEventListener('change', calculatePayment);
+vehicleSelect.addEventListener('change', calculatePayment);
 </script>
+
 
 </body>
 </html>
